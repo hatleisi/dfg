@@ -1,0 +1,43 @@
+/*start button*/
+#button {
+  padding: 14px 16px;
+  position: absolute;
+  left: 40%;
+  border: none;
+  background-color: #0976CD;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+#button {
+  border-radius: 4px;
+}
+
+/* input box */
+#tim {
+  padding: 14px 16px;
+  position: absolute;
+  right: 40%;
+  margin: 5px;
+  height: 10px;
+}
+#tim {
+  border-radius: 4px;
+}
+
+/* The Seconds*/
+#time {
+  padding: 14px 16px;
+  font-size: 50px;
+  border: none;
+  text-align: center;
+  postion: absolute;
+}
+
+#t {
+  text-align: center;
+  text-colour: #A52A2A;
+}
+
+.timer {
+}

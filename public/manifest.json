@@ -1,0 +1,27 @@
+{
+  "name": "Countdown Timer",
+  "short_name": "Countdown",
+  "icons": [
+    {
+      "src": "/images/BTV1.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/BTV2.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/BTV3.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#3E4EB8",
+   "theme_color": "#317EFB"
+}

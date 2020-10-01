@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Countdown</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="Description" content="Put your description here." />
+  <meta name="theme-color" content="#317EFB"/>
+   <link rel="manifest" href="/manifest.json" />
+
+  <body>
+    <div class="timer">
+      <h1 id="t">Countdown Timer</h1>
+      <br />
+      <div id="time">0:00</div>
+      <br />
+      <button id="button" onclick="startCountdown()">Start Timer</button>
+      <lable> <input id="tim" type="number" aria-label="tim" value="0" /> </lable>
+    </div>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function() {
+          navigator.serviceWorker
+            .register("service-worker.js")
+            .then(reg => {
+              console.log("Service worker registered! 😎", reg);
+            })
+            .catch(err => {
+              console.log("😥 Service worker registration failed: ", err);
+            });
+        });
+      }
+    </script>
+  </body>
+
+  <script src="script.js"></script>
+</html>
